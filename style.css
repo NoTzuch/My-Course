@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Início Navbar */
+header {
+	padding: 40px 0; 
+	background: linear-gradient(to bottom, #9a7d5b, #cfc2b4);
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.alface{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	margin: -10px 0px 0px -350px;
+}
+
+.alface:hover{
+	height: 120px;
+	width: 120px;
+	transition: 1s;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 100px 100px 0px 20px;
+	
+}
+
+nav a {
+
+	font-family: 'Roboto', sans-serif;
+	color: #FFFF;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #ac9172;
+	font-size: 30px;
+	text-shadow: #000000 0 2px;
+	transition: 0.09s ;
+
+}
+
+nav a:active{
+	transition: 0.01s ;
+	color: #4ca64c;
+}
+
+/* Inicio do conteudo do site */
+
+.container{
+	background-color: #e5e5e5;
+	display: flex;
+    overflow: hidden;
+   	position: relative;
+   	max-height: 500px;
+}
+
+.frente__quitanda{
+	width: 100%;
+	opacity: 0.1;
+}
+
+
+.explicacao{
+	font-size: 25px;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Início do footer */
+
+footer{
+  
+  background: #39281b;
+  width: 100%;
+  height: 319px;
+}
+
+footer h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+footer .conteudo{
+  width: 1000px;
+  margin: auto;
+  padding: 10px 30px 1px;
+}
+
+footer .conteudo .caixas__footer{
+  width: 117%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+ footer .caixas__footer .caixa__footer{
+  	margin-bottom: 30px;
+  	margin-top: 15px;
+ 	padding-right: 90px;
+  }
+
+footer .caixas__footer .caixa__footer li a{
+  	font-family: 'Roboto', sans-serif;
+  	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 10px 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.logo__redeSocial{
+	height: 35px;
+	width: 35px;
+	padding: 2px;
+	margin-left: 56px;
+}
+
+.copyright{
+  	text-align: center;
+  }
+
+span, .link__copyrith{
+ 	text-decoration: none;
+	color: #f1faee;
+}
+
+ footer a:hover{
+ 	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	transition: 0.09s;
+}
+
+.logo__redeSocial:hover{
+	height: 45px;
+	width: 45px;
+	transition: 0.3s;
+	cursor: pointer;
+	background-color: #690500;
+	border-radius: 50%;
+}
+
+ 
